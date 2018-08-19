@@ -5,7 +5,7 @@ import android.arch.persistence.room.Relation
 import it.t4group.androidsunflower.data.gardenplanting.GardenPlanting
 import it.t4group.androidsunflower.data.plants.Plant
 
-class PlantGardenPlantings {
+class PlantAndGardenPlantings {
 
     @Embedded
     lateinit var plant: Plant

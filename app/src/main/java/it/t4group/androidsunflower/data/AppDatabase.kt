@@ -18,7 +18,7 @@ import it.t4group.androidsunflower.workers.SeedDatabaseWorker
 @TypeConverters(Converters::class)
 abstract class AppDatabase : RoomDatabase() {
 
-    abstract fun gardenPlanttingDao(): GardenPlantingDao
+    abstract fun gardenPlantingDao(): GardenPlantingDao
     abstract fun plantDao(): PlantDao
 
     companion object {
@@ -26,7 +26,7 @@ abstract class AppDatabase : RoomDatabase() {
         @Volatile
         private var instance: AppDatabase? = null
 
-        fun getInstace(context: Context) =
+        fun getInstance(context: Context) =
                 instance ?: synchronized(this) {
                     instance ?: buildDatabase(context).also {
                         instance = it
