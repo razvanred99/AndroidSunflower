@@ -1,7 +1,7 @@
 package it.t4group.androidsunflower.viewmodels
 
-import android.arch.lifecycle.ViewModel
-import android.arch.lifecycle.ViewModelProvider
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.ViewModelProvider
 import it.t4group.androidsunflower.data.gardenplanting.GardenPlantingRepository
 
 class GardenPlantingListViewModelFactory(private val repository: GardenPlantingRepository) : ViewModelProvider.NewInstanceFactory() {

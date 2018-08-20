@@ -1,11 +1,11 @@
 package it.t4group.androidsunflower.adapters
 
-import android.databinding.BindingAdapter
-import android.support.design.widget.FloatingActionButton
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.databinding.BindingAdapter
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
+import com.google.android.material.floatingactionbutton.FloatingActionButton
 import it.t4group.androidsunflower.R
 
 @BindingAdapter("imageFromUrl")

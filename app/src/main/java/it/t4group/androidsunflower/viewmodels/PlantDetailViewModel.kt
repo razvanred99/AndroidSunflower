@@ -1,8 +1,8 @@
 package it.t4group.androidsunflower.viewmodels
 
-import android.arch.lifecycle.LiveData
-import android.arch.lifecycle.Transformations
-import android.arch.lifecycle.ViewModel
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.Transformations
+import androidx.lifecycle.ViewModel
 import it.t4group.androidsunflower.data.gardenplanting.GardenPlantingRepository
 import it.t4group.androidsunflower.data.plants.Plant
 import it.t4group.androidsunflower.data.plants.PlantRepository

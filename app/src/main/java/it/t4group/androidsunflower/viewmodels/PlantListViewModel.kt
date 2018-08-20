@@ -1,9 +1,9 @@
 package it.t4group.androidsunflower.viewmodels
 
-import android.arch.lifecycle.MediatorLiveData
-import android.arch.lifecycle.MutableLiveData
-import android.arch.lifecycle.Transformations
-import android.arch.lifecycle.ViewModel
+import androidx.lifecycle.MediatorLiveData
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.Transformations
+import androidx.lifecycle.ViewModel
 import it.t4group.androidsunflower.data.plants.Plant
 import it.t4group.androidsunflower.data.plants.PlantRepository
 

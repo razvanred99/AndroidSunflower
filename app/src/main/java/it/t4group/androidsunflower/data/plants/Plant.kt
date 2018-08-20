@@ -1,7 +1,7 @@
 package it.t4group.androidsunflower.data.plants
 
-import android.arch.persistence.room.Entity
-import android.arch.persistence.room.PrimaryKey
+import androidx.room.Entity
+import androidx.room.PrimaryKey
 import java.util.*
 import java.util.Calendar.DAY_OF_YEAR
 

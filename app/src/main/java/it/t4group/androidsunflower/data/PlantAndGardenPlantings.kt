@@ -1,7 +1,7 @@
 package it.t4group.androidsunflower.data
 
-import android.arch.persistence.room.Embedded
-import android.arch.persistence.room.Relation
+import androidx.room.Embedded
+import androidx.room.Relation
 import it.t4group.androidsunflower.data.gardenplanting.GardenPlanting
 import it.t4group.androidsunflower.data.plants.Plant
 

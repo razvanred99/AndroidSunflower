@@ -1,10 +1,9 @@
 package it.t4group.androidsunflower.viewmodels
 
-import android.arch.lifecycle.ViewModel
 import android.content.Context
-import android.databinding.ObservableField
+import androidx.databinding.ObservableField
+import androidx.lifecycle.ViewModel
 import it.t4group.androidsunflower.R
-
 import it.t4group.androidsunflower.data.PlantAndGardenPlantings
 import java.text.SimpleDateFormat
 import java.util.*

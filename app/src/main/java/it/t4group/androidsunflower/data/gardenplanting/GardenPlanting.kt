@@ -1,6 +1,9 @@
 package it.t4group.androidsunflower.data.gardenplanting
 
-import android.arch.persistence.room.*
+import androidx.room.Entity
+import androidx.room.ForeignKey
+import androidx.room.Index
+import androidx.room.PrimaryKey
 import it.t4group.androidsunflower.data.plants.Plant
 import java.util.*
 
